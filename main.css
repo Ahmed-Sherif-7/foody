@@ -72,9 +72,16 @@ header nav {
 header nav .logo {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   justify-content: center;
   cursor: pointer;
   z-index: 3000;
+=======
+  justify-content: flex-start;
+  cursor: pointer;
+  z-index: 3000;
+  width: 100%;
+>>>>>>> 60f64e1 (final one now)
 }
 header nav .logo img {
   width: 70px;
@@ -96,6 +103,10 @@ header nav .links {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
+<<<<<<< HEAD
+=======
+  z-index: 10000;
+>>>>>>> 60f64e1 (final one now)
 }
 header nav .links ul {
   display: flex;
@@ -139,6 +150,13 @@ header nav .links ul .mega-hover a .span {
   margin: 0px 3px;
 }
 
+<<<<<<< HEAD
+=======
+header nav .links ul .mega-hover a .span i {
+  margin-right: -7px;
+}
+
+>>>>>>> 60f64e1 (final one now)
 header nav .links ul .mega-hover:hover > .mega_menu{
   visibility: visible;
   transition: 0;
@@ -159,7 +177,10 @@ header nav .links ul .mega-hover .mega_menu {
   width: 90%;
   background-color: #ffffff;
   transition: opacity 0.5s;
+<<<<<<< HEAD
   /* transition-delay: 0.2s; */
+=======
+>>>>>>> 60f64e1 (final one now)
   opacity: 0;
   padding: 10px 100px;
   z-index: -100;
@@ -248,6 +269,10 @@ header nav .links ul .mega_menu .img img {
 header nav .icons {
   padding: 20px;
   z-index: 20000;
+<<<<<<< HEAD
+=======
+  display: flex;
+>>>>>>> 60f64e1 (final one now)
 }
 header nav .icons i {
   padding: 10px;
@@ -270,7 +295,10 @@ header nav .burger {
   z-index: 20000;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 60f64e1 (final one now)
 /* End Header  */
 
 /* Start landing  */
@@ -1871,6 +1899,18 @@ border-radius: 12px;
 box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
+<<<<<<< HEAD
+=======
+header nav .logo {
+  width: 50%;
+}
+
+header nav .logo img {
+  width: 50px;
+  padding: 20px 0px;
+}
+
+>>>>>>> 60f64e1 (final one now)
 header nav .links.active {
 display: flex;
 }
@@ -2310,10 +2350,22 @@ header nav .links ul .mega-hover.active .mega_menu {
       z-index: 999;
   }
 
+<<<<<<< HEAD
+=======
+  header nav .logo {
+    width: 50%;
+  }
+
+>>>>>>> 60f64e1 (final one now)
   header nav .links.active {
       display: flex; /* Show when active */
   }
 
+<<<<<<< HEAD
+=======
+
+  
+>>>>>>> 60f64e1 (final one now)
   header nav .links ul {
       flex-direction: column;
       width: 100%;
