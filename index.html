@@ -10,7 +10,7 @@
     <!-- lik main css file  -->
     <link rel="stylesheet" href="main.css">
     <!-- link font awesome file  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" xintegrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- link google font file  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +21,7 @@
 <header>
     <div class="container">
     <nav>
+        <div class="overlay"></div>
         <div class="logo">
             <img src="sources/imgs/header/logo.png" alt="">
             <h2>F<span>oo</span>dy</h2>
@@ -31,8 +32,9 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li class="mega-hover"><a href="#">Other <span class="span"><i class="fa-solid fa-angle-down"></i></span></a>
-                <div class="mega_menu">
+                <li class="mega-hover">
+                    <a href="javascript:void(0)" class="toggle-mega">Other <span class="span"><i class="fa-solid fa-angle-down"></i></span></a>
+                    <div class="mega_menu">
                     <div class="img">
                         <img src="sources/imgs/header/mega-menu.png">
                     </div>
@@ -64,6 +66,9 @@
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-solid fa-heart"></i>
             <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="burger">
+            <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
 </div>
@@ -936,5 +941,6 @@
 </footer>
 <!-- End Footer Section  -->
 
+<script src="script.js"></script>
 </body>
 </html>
